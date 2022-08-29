@@ -1,3 +1,7 @@
+-- init tokyonight options
+vim.g.tokyonight_transparent = true
+vim.g.tokyonight_transparent_sidebar = true
+
 local present, tk_colors = pcall(require, "tokyonight.colors")
 if not present then
   return
