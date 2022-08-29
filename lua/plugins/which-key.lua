@@ -218,6 +218,12 @@ local normal_mode_mappings = {
     m = { 'toggle' },
     t = { 'tableize' },
   },
+
+  x = {
+    name = "Text",
+    ["\""] = { 'wrap in a double quote' },
+    ["\'"] = { 'wrap in a single quote' },
+  },
 }
 
 local visual_mode_mappings = {
@@ -252,6 +258,12 @@ local visual_mode_mappings = {
   t = {
     name = "Table Mode",
     t = { 'tableize' },
+  },
+
+  x = {
+    name = "Text",
+    ["\""] = { 'wrap in a double quote' },
+    ["\'"] = { 'wrap in a single quote' },
   },
 }
 

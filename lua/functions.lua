@@ -35,4 +35,11 @@ win.default_opts = function(options)
   return opts
 end
 
+vim.cmd([[
+  function! ShowAnimeGul()
+    highlight Normal guibg=none
+    highlight NonText guibg=none
+  endfunction
+]])
+
 return M
